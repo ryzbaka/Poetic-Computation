@@ -16,8 +16,6 @@ function setup() {
 }
 
 function draw() {
-  //console.log("X:",mouseX)
-  //console.log("Y:",mouseY)
   image(layer0,0,0)
   fill(255,156,0,20)
   ellipse(mouseX,mouseY,50,50)
